@@ -23,4 +23,4 @@ jobs:
           # --branch 指定源仓库与目标仓库中要同步的同名分支
           # --force 会将目标分支硬重置为源分支状态；目标分支的独有提交可能丢失
           # gh repo sync "${{ github.repository }}" --source "tgymnich/fork-sync" --branch "main" --force
-          gh repo sync "${{ github.repository }}" --source "Coolapk-UWP/Coolapk-UWP" --branch "main"
+          gh repo sync "${{ github.repository }}" --source "Coolapk-UWP/Coolapk-UWP" --branch "revived"
